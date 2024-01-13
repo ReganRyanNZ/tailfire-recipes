@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import { setupCounter } from './counter.js'
 import { Recipe } from './recipe'
 import { bananaCake } from './recipes/bananaCake'
+import { englishMuffins } from './recipes/englishMuffins'
 
 // document.querySelector('#app').innerHTML = `
 //   <div>
@@ -24,4 +25,4 @@ import { bananaCake } from './recipes/bananaCake'
 // `
 
 document.querySelector('#app').innerHTML = ``
-document.querySelector('#app').append(Recipe(bananaCake))
+document.querySelector('#app').append(Recipe(englishMuffins))
