@@ -1,6 +1,6 @@
 export function spaFallback() {
   return {
-    name: 'spa-fallback',
+    name: 'rollup-plugin-spa-fallback',
 
     configureServer(server) {
         server.middlewares.use((req, res, next) => {
