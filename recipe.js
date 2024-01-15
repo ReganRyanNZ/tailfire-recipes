@@ -10,7 +10,10 @@ export function Recipe(recipe) {
   component.classList.add("recipe")
 
   let title = document.createElement('h1')
-  title.innerText = recipe.title
+  let titleLink = document.createElement('a')
+  titleLink.href = '/'
+  titleLink.innerText = recipe.title
+  title.append(titleLink)
   component.append(title)
 
   let steps = recipe.steps.map(step => createStep(step))

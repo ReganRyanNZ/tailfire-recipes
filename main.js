@@ -6,23 +6,37 @@ import { Recipe } from './recipe'
 import { bananaCake } from './recipes/bananaCake'
 import { englishMuffins } from './recipes/englishMuffins'
 
-// document.querySelector('#app').innerHTML = `
-//   <div>
-//     <a href="https://vitejs.dev" target="_blank">
-//       <img src="${viteLogo}" class="logo" alt="Vite logo" />
-//     </a>
-//     <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
-//       <img src="${javascriptLogo}" class="logo vanilla" alt="JavaScript logo" />
-//     </a>
-//     <h1>Hello Vite!</h1>
-//     <div class="card">
-//       <button id="counter" type="button"></button>
-//     </div>
-//     <p class="read-the-docs">
-//       Click on the Vite logo to learn more
-//     </p>
-//   </div>
-// `
+const recipeRoutes = {
+  "english-muffins": englishMuffins,
+  "banana-cake": bananaCake
+}
+window.recipeRoutes = recipeRoutes
+const route = window.location.pathname.split('/').filter(str => str.length > 0)
+const recipe = recipeRoutes[route[0]]
 
-document.querySelector('#app').innerHTML = ``
-document.querySelector('#app').append(Recipe(englishMuffins))
+let app = document.querySelector('#app')
+app.innerHTML = ``
+if (recipe) {
+  app.append(Recipe(recipe))
+} else {
+  app.innerHTML = `Hey, welcome to the site. Look around. We have ${Object.keys(recipeRoutes).length} recipes.`
+
+  let recipeLink = (route) => {
+    let link = document.createElement('a')
+    link.classList.add('recipe-link')
+    link.innerText = route
+    link.href = `/${route}`
+    return link
+  }
+
+
+  let recipeList = document.createElement('div')
+  recipeList.append(recipeLink(`banana-cake`))
+  recipeList.append(recipeLink(`english-muffins`))
+  app.append(recipeList)
+}
+
+
+
+// Add some route-handling thing to intercept all links and handle them without
+// online navigation.

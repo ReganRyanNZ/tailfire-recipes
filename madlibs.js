@@ -9,7 +9,7 @@ function timeFrame() {
                 `born`,
                 `fighting sherpas on the slopes of Everest`,
                 `navigating the Atlantic for the first time`,
-                `star-gazing in the fields with my highschool sweeheart`,
+                `star-gazing in the fields with my highschool sweetheart`,
                 `down to my last dollar during the Great Depression`,
                 `getting coffee last week`
               ])
