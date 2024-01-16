@@ -5,10 +5,13 @@ import { setupCounter } from './counter.js'
 import { Recipe } from './recipe'
 import { bananaCake } from './recipes/bananaCake'
 import { englishMuffins } from './recipes/englishMuffins'
+import { pizza } from './recipes/pizza'
+import { titleCase } from './helpers'
 
 const recipeRoutes = {
+  "banana-cake": bananaCake,
   "english-muffins": englishMuffins,
-  "banana-cake": bananaCake
+  "pizza": pizza
 }
 window.recipeRoutes = recipeRoutes
 const route = window.location.pathname.split('/').filter(str => str.length > 0)
@@ -24,15 +27,16 @@ if (recipe) {
   let recipeLink = (route) => {
     let link = document.createElement('a')
     link.classList.add('recipe-link')
-    link.innerText = route
+    link.innerText = titleCase(route)
     link.href = `/${route}`
     return link
   }
 
 
   let recipeList = document.createElement('div')
-  recipeList.append(recipeLink(`banana-cake`))
-  recipeList.append(recipeLink(`english-muffins`))
+  for(let recipeSlug of Object.keys(recipeRoutes)) {
+    recipeList.append(recipeLink(recipeSlug))
+  }
   app.append(recipeList)
 }
 

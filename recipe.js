@@ -23,10 +23,10 @@ export function Recipe(recipe) {
   stepGrid.append(...steps)
   component.append(stepGrid)
 
-  let backstory = document.createElement('div')
-  backstory.classList.add('backstory')
-  backstory.innerText = madlibs(recipe.tips)
-  component.append(backstory)
+  // let backstory = document.createElement('div')
+  // backstory.classList.add('backstory')
+  // backstory.innerText = tipsComponent(recipe.tips)
+  component.append(tipsComponent(recipe.tips))
 
   console.log({recipe, steps})
   return component
@@ -58,4 +58,18 @@ function listify(array) {
 
 function markDown(text) {
   return text.replaceAll(/\*([^*]+)\*/g, "<b>$1</b>") // insert bold tags
+}
+
+function tipsComponent(tips) {
+  let component = document.createElement('ul')
+  component.classList.add('tips')
+  let h2 = document.createElement('h2')
+  h2.innerText = "Tips & Tricks"
+  component.append(h2)
+  for(let tip of tips) {
+    let li = document.createElement('li')
+    li.innerText = tip
+    component.append(li)
+  }
+  return component
 }

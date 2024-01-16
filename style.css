@@ -77,7 +77,12 @@ h1 {
 
 .recipe-link {
   display: block;
-  padding: 3px;
+  padding: 6px;
+  margin-top: 8px;
 }
 
+.tips {
+  text-align: left;
+  margin-top: 80px;
+}
 /* TODO add css themes, there's a fancy way of doing it */
