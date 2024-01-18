@@ -22,8 +22,10 @@ const renderApp = () => {
   let app = document.querySelector('#app')
   app.innerHTML = ``
   if (recipe) {
+    document.title = `${recipe.title} - Tailfire Recipes`
     app.append(Recipe(recipe))
   } else {
+    document.title = `Tailfire Recipes`
     app.innerHTML = `Hey, welcome to the site. Look around. We have ${Object.keys(recipeRoutes).length} recipes.`
 
     let recipeLink = (recipeSlug) => {
