@@ -1,10 +1,3 @@
-// Recipes receive data in a very specific format:
-// - An array of "steps"
-// - Each step is a 2-length array of ingredients and actions
-// - Ingredients is an array of measured ingredients e.g. "200g butter"
-// - Actions is an array of instructions e.g. "Soften butter and add to mix"
-import { madlibs } from "./madlibs"
-
 export function Recipe(recipe) {
   let component = document.createElement("div")
   component.classList.add("recipe")
@@ -23,12 +16,8 @@ export function Recipe(recipe) {
   stepGrid.append(...steps)
   component.append(stepGrid)
 
-  // let backstory = document.createElement('div')
-  // backstory.classList.add('backstory')
-  // backstory.innerText = tipsComponent(recipe.tips)
   component.append(tipsComponent(recipe.tips))
 
-  console.log({recipe, steps})
   return component
 }
 
