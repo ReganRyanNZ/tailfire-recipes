@@ -1,17 +1,17 @@
 import './style.css'
-import javascriptLogo from './javascript.svg'
-import viteLogo from '/vite.svg'
-import { setupCounter } from './counter.js'
+import { titleCase } from './helpers'
 import { Recipe } from './recipe'
+
 import { bananaCake } from './recipes/bananaCake'
+import { bread } from './recipes/bread'
 import { englishMuffins } from './recipes/englishMuffins'
 import { pizza } from './recipes/pizza'
-import { titleCase } from './helpers'
 
 const recipeRoutes = {
   "banana-cake": bananaCake,
+  "bread": bread,
   "english-muffins": englishMuffins,
-  "pizza": pizza
+  "pizza": pizza,
 }
 window.recipeRoutes = recipeRoutes
 const route = window.location.pathname.split('/').filter(str => str.length > 0)
