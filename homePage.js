@@ -3,7 +3,7 @@ import { flameLeafSVG } from "./public/flame-leaf"
 
 export function homePage() {
   let component = document.createElement('div')
-  let introText = `Hey, welcome to the site. Look around. We have ${Object.keys(recipeRoutes).length} recipes.`
+  let introText = `Hey, welcome to the cookbook. Look around. We have ${Object.keys(recipeRoutes).length} recipes.`
 
   component.append(title())
   component.append(introText)
