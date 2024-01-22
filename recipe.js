@@ -3,7 +3,7 @@ import { title } from './helpers'
 import { bananaCake } from './recipes/bananaCake'
 import { breadLoaf } from './recipes/breadLoaf'
 import { englishMuffins } from './recipes/englishMuffins'
-import { lasagne } from './recipes/lasagne'
+import { lasagna } from './recipes/lasagna'
 import { pizza } from './recipes/pizza'
 import { breadRolls } from './recipes/breadRolls'
 
@@ -12,7 +12,7 @@ export const recipeRoutes = {
   "bread-loaf": breadLoaf,
   "bread-rolls": breadRolls,
   "english-muffins": englishMuffins,
-  "lasagne": lasagne,
+  "lasagna": lasagna,
   "pizza": pizza,
 }
 

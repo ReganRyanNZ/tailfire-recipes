@@ -1,4 +1,4 @@
-import { flameLeafSVG } from "./public/flame-leaf"
+import { flameLeafSVG } from "./assets/flame-leaf.js"
 
 export function title(text) {
   let title = document.createElement('h1')

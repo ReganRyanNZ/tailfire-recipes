@@ -1,5 +1,5 @@
-import './style.css'
-import './styleSmall.css'
+import './assets/style.css'
+import './assets/styleSmall.css'
 import { NavigationSetup, Route } from './navigation'
 import { Recipe, recipeRoutes } from './recipe'
 import { homePage } from './homePage'
