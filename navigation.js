@@ -23,7 +23,6 @@ export const NavigationSetup = (renderApp) => {
   // Reroute links to be offline, calling renderApp instead of an http request
   const activateLink = (e) => {
     let link = e.target.closest('a')
-    console.log(link)
     if(link) {
       e.preventDefault();
       e.stopPropagation();

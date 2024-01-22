@@ -7,12 +7,14 @@ import { Recipe } from './recipe'
 import { bananaCake } from './recipes/bananaCake'
 import { bread } from './recipes/bread'
 import { englishMuffins } from './recipes/englishMuffins'
+import { lasagne } from './recipes/lasagne'
 import { pizza } from './recipes/pizza'
 
 const recipeRoutes = {
   "banana-cake": bananaCake,
   "bread": bread,
   "english-muffins": englishMuffins,
+  "lasagne": lasagne,
   "pizza": pizza,
 }
 
