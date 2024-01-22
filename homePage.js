@@ -1,11 +1,12 @@
 import { recipeRoutes } from "./recipe"
-import { flameLeafSVG } from "./public/flame-leaf"
+import { title } from "./helpers"
 
 export function homePage() {
   let component = document.createElement('div')
+  component.id = "app"
   let introText = `Hey, welcome to the cookbook. Look around. We have ${Object.keys(recipeRoutes).length} recipes.`
 
-  component.append(title())
+  component.append(title('Tailfire Recipes'))
   component.append(introText)
   component.append(recipeList())
   return component
@@ -27,13 +28,4 @@ function recipeLink(slug) {
   link.innerText = recipeRoutes[slug].title
   link.href = `/${slug}`
   return link
-}
-
-function title() {
-  let title = document.createElement('h1')
-  title.innerText = 'Tailfire Recipes'
-  let badge = document.createElement('svg')
-  title.append(badge)
-  badge.outerHTML = flameLeafSVG
-  return title
 }

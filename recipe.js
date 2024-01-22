@@ -1,3 +1,5 @@
+import { title } from './helpers'
+
 import { bananaCake } from './recipes/bananaCake'
 import { breadLoaf } from './recipes/breadLoaf'
 import { englishMuffins } from './recipes/englishMuffins'
@@ -18,12 +20,7 @@ export function Recipe(recipe) {
   let component = document.createElement("div")
   component.classList.add("recipe")
 
-  let title = document.createElement('h1')
-  let titleLink = document.createElement('a')
-  titleLink.href = '/'
-  titleLink.innerText = recipe.title
-  title.append(titleLink)
-  component.append(title)
+  component.append(title(recipe.title))
 
   let steps = recipe.steps.map(step => createStep(step))
 

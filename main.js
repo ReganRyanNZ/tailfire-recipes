@@ -1,4 +1,5 @@
 import './style.css'
+import './styleSmall.css'
 import { NavigationSetup, Route } from './navigation'
 import { Recipe, recipeRoutes } from './recipe'
 import { homePage } from './homePage'
@@ -13,7 +14,7 @@ const renderApp = () => {
     app.append(Recipe(recipe))
   } else {
     document.title = `Tailfire Recipes`
-    app.append(homePage())
+    app.replaceWith(homePage())
 
   }
 }

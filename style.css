@@ -12,18 +12,17 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* We want headings to be links back to the main page,
-   but we don't want this to affect styling of the h1 */
 h1 > a {
   font-weight: inherit;
-    color: inherit
+  color: inherit;
+  padding: 10px 30px;
 }
 
 h1 > a:hover {
   color: inherit;
 }
 
-h1 > svg {
+h1 svg {
   height: 50px;
   width: auto;
   margin-left: 10px;
@@ -41,10 +40,10 @@ a:hover {
 
 body {
   margin: 0;
-  display: flex;
-  place-items: center;
+  display: block;
   min-width: 320px;
   min-height: 100vh;
+  text-align: center;
 }
 
 h1 {
@@ -53,10 +52,10 @@ h1 {
 }
 
 #app {
-  max-width: 600px;
-  margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .recipe-step {
@@ -64,6 +63,10 @@ h1 {
   grid-template-columns: 1fr 1fr;
   text-align: left;
   border: 1px solid white;
+}
+
+.recipe-step + .recipe-step {
+  border-top: none;
 }
 
 .recipe-step li {
