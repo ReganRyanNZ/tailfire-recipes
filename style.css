@@ -23,6 +23,13 @@ h1 > a:hover {
   color: inherit;
 }
 
+h1 > svg {
+  height: 50px;
+  width: auto;
+  margin-left: 10px;
+  vertical-align: bottom;
+}
+
 a {
   font-weight: 500;
   color: #646cff;
@@ -70,19 +77,28 @@ h1 {
   padding-top: 1em
 }
 
-.backstory {
-  text-align: left;
-  padding-top: 3em;
+.recipe-list {
+  margin-top: 40px;
+  width: 100%;
 }
 
 .recipe-link {
-  display: block;
+  display: inline-block;
+  width: 160px;
+  height: 80px;
+  line-height: 80px;
   padding: 6px;
-  margin-top: 8px;
+  border: 1px solid lightsteelblue;
+  color: lightsteelblue;;
 }
+.recipe-link:hover {
+  color: steelblue;;
+}
+
+/* TODO add css themes, there's a fancy way of doing it */
+
 
 .tips {
   text-align: left;
   margin-top: 80px;
 }
-/* TODO add css themes, there's a fancy way of doing it */

@@ -1,5 +1,5 @@
-let bread = {
-  title: `Bread`,
+let breadLoaf = {
+  title: `Bread Loaf`,
   steps: [
     {ingredients: [`10g *yeast*`, `350g *water*`, `Pinch of *sugar*`],
      actions: [`Mix sugar, yeast, and water. Let it sit in a warm place until the yeast is foaming at the top.`]},
@@ -16,4 +16,4 @@ let bread = {
   ]
 }
 
-export {bread}
+export {breadLoaf}

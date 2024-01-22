@@ -1,3 +1,19 @@
+import { bananaCake } from './recipes/bananaCake'
+import { breadLoaf } from './recipes/breadLoaf'
+import { englishMuffins } from './recipes/englishMuffins'
+import { lasagne } from './recipes/lasagne'
+import { pizza } from './recipes/pizza'
+import { breadRolls } from './recipes/breadRolls'
+
+export const recipeRoutes = {
+  "banana-cake": bananaCake,
+  "bread-loaf": breadLoaf,
+  "bread-rolls": breadRolls,
+  "english-muffins": englishMuffins,
+  "lasagne": lasagne,
+  "pizza": pizza,
+}
+
 export function Recipe(recipe) {
   let component = document.createElement("div")
   component.classList.add("recipe")
