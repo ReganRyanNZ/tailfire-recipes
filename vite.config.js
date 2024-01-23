@@ -4,7 +4,6 @@ import { VitePWA } from 'vite-plugin-pwa'
 export default defineConfig({
   plugins: [
     VitePWA({ registerType: 'autoUpdate',
-              devOptions: { enabled: true },
               workbox: { globPatterns: ["**/*"] }, // cache all the imports
               includeAssets: [ "**/*" ], // cache all the static assets in the public folder
               manifest: {
