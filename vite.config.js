@@ -10,9 +10,10 @@ export default defineConfig({
                 "name": "Tailfire Recipes",
                 "short_name": "Recipes",
                 "start_url": "/",
+                "description": "Cookbook for good food, simply explained",
                 "display": "standalone",
-                "theme_color": "#FFFFFF",
-                "background_color": "#FFFFFF",
+                "theme_color": "#242424",
+                "background_color": "#242424",
                 "lang": "en",
                 "scope": "/",
                 "icons": [
