@@ -91,11 +91,11 @@ h1 {
   height: 80px;
   line-height: 80px;
   padding: 6px;
-  border: 1px solid lightsteelblue;
-  color: lightsteelblue;;
+  border: 1px solid white;
+  color: white;;
 }
 .recipe-link:hover {
-  color: steelblue;;
+  color: lightsteelblue;;
 }
 
 /* TODO add css themes, there's a fancy way of doing it */
