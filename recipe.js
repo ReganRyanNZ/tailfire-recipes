@@ -2,6 +2,7 @@ import { title } from './helpers'
 
 import { bananaCake } from './recipes/bananaCake'
 import { breadLoaf } from './recipes/breadLoaf'
+import { chocMugCake } from './recipes/chocMugCake'
 import { englishMuffins } from './recipes/englishMuffins'
 import { lasagna } from './recipes/lasagna'
 import { pizza } from './recipes/pizza'
@@ -11,6 +12,7 @@ export const recipeRoutes = {
   "banana-cake": bananaCake,
   "bread-loaf": breadLoaf,
   "bread-rolls": breadRolls,
+  "chocolate-self-saucing-mug-cake": chocMugCake,
   "english-muffins": englishMuffins,
   "lasagna": lasagna,
   "pizza": pizza,

@@ -97,6 +97,11 @@ h1 {
 .recipe-link:hover {
   color: lightsteelblue;;
 }
+.recipe-link span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 18px;
+}
 
 /* TODO add css themes, there's a fancy way of doing it */
 

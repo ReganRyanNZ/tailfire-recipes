@@ -25,7 +25,11 @@ function recipeList() {
 function recipeLink(slug) {
   let link = document.createElement('a')
   link.classList.add('recipe-link')
-  link.innerText = recipeRoutes[slug].title
   link.href = `/${slug}`
+
+  let span = document.createElement('span')
+  span.innerText = recipeRoutes[slug].title
+  link.append(span)
+
   return link
 }
