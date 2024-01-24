@@ -83,9 +83,11 @@ h1 {
 .recipe-list {
   margin-top: 40px;
   width: 100%;
+  text-align: left;
 }
 
 .recipe-link {
+  text-align: center;
   display: inline-block;
   width: 160px;
   height: 80px;
