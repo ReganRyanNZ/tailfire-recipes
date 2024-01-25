@@ -1,21 +1,19 @@
 import './assets/style.css'
 import './assets/styleSmall.css'
 import { NavigationSetup, Route } from './navigation'
-import { Recipe, recipeRoutes } from './recipe'
-import { homePage } from './homePage'
+import { Recipe, recipeRoutes } from './pages/recipe'
+import { homePage } from './pages/homePage'
 
 const renderApp = () => {
   let app = document.querySelector('#app')
-  app.innerHTML = ``
 
   const recipe = recipeRoutes[Route()[0]]
   if (recipe) {
     document.title = `${recipe.title} - Tailfire Recipes`
-    app.append(Recipe(recipe))
+    app.replaceChildren(Recipe(recipe))
   } else {
     document.title = `Tailfire Recipes`
-    app.replaceWith(homePage())
-
+    app.replaceChildren(homePage())
   }
 }
 

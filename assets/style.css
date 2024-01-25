@@ -80,10 +80,15 @@ h1 {
   padding-top: 1em
 }
 
-.recipe-list {
+.recipe-list-container {
   margin-top: 40px;
   width: 100%;
+  text-align: center;
+}
+
+.recipe-list {
   text-align: left;
+  display: inline;
 }
 
 .recipe-link {

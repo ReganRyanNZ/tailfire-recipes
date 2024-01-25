@@ -9,6 +9,6 @@ export const fettuccineAlfredo = {
      actions: [`Melt butter in a pan, add noodles and parmesan, stir together.`, `Slowly add the pasta water while stirring to get a creamy sauce.`]},
   ],
   tips: [`This is the plain traditional recipe, but you can build on it with bacon, mushrooms, or sundried tomatoes.`,
-         `For great pasta, it's worthwhile to get a pasta machine. If you don't have one, you can roll the dough very flat, then fold the dough sheet in half several times (in the same direction) and slice with a knife to cut the noodles.`
+         `For great pasta, it's worthwhile to get a pasta machine. If you don't have one, you can roll the dough very flat, then fold the dough sheet in half several times (in the same direction) and slice with a very sharp knife to cut the noodles.`
   ]
 }
