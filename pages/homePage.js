@@ -2,37 +2,37 @@ import { recipeRoutes } from "./recipe"
 import { createElement, title } from "./helpers"
 
 export function homePage() {
-  let component = document.createElement('div')
-  component.classList.add('homepage')
+  let component = createElement('div.homepage')
 
   let introText = `Hey, welcome to the cookbook. Look around. We have ${Object.keys(recipeRoutes).length} recipes.`
 
   component.append(title('Tailfire Recipes'))
   component.append(introText)
   component.append(recipeList())
+  component.append(aboutLink())
   return component
 }
 
 
 function recipeList() {
-  let container = createElement('div.recipe-list-container')
-  let recipeList = document.createElement('div')
-  recipeList.classList.add('recipe-list')
+  let recipeList = createElement('div.recipe-list')
   for(let recipeSlug of Object.keys(recipeRoutes)) {
     recipeList.append(recipeLink(recipeSlug))
   }
-  container.append(recipeList)
-  return container
+  return recipeList
 }
 
 function recipeLink(slug) {
-  let link = document.createElement('a')
-  link.classList.add('recipe-link')
+  let span = createElement('span', recipeRoutes[slug].title)
+  let link = createElement('a.recipe-link', span)
   link.href = `/${slug}`
 
-  let span = document.createElement('span')
-  span.innerText = recipeRoutes[slug].title
-  link.append(span)
+  return link
+}
+
+function aboutLink() {
+  let link = createElement('a.about-link', 'About')
+  link.href = '/about'
 
   return link
 }

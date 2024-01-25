@@ -1,5 +1,9 @@
 import { flameLeafSVG } from "../assets/flame-leaf.js"
 
+/**
+* Create an h1 with the site's badge next to it
+* @returns {Element}
+*/
 export function title(text) {
   let title = document.createElement('h1')
   let titleLink = document.createElement('a')
@@ -12,11 +16,16 @@ export function title(text) {
   return title
 }
 
-
-// Takes a string like "div#home-button.btn" and creates the tag with the id
-// and classes
-export function createElement(input) {
-  const args = input.match(/[#.]?[^#.]+/g)
+/**
+* Cleaner syntax for "document.createElement". Add id, classes, and content in
+* one go.
+*
+* @param {String} inputTags Element name, id, and classes like "div#home-button.btn"
+* @param {*} content Inner HTML, could be text or another Element
+* @returns {Element}
+*/
+export function createElement(inputTags, content) {
+  const args = inputTags.match(/[#.]?[^#.]+/g)
   let el = document.createElement(args[0])
   for(let arg of args) {
     if(arg[0] == '.') {
@@ -25,5 +34,9 @@ export function createElement(input) {
       el.id = arg.slice(1)
     }
   }
+
+  if (content && content.nodeType) { el.appendChild(content) }
+  else if (content) { el.innerHTML = content }
+
   return el
 }

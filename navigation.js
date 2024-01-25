@@ -1,14 +1,19 @@
 // I'm kinda proud of this.
-// Offline routing that only uses 2 methods:
-// - Route() gives you the current route as an array of strings
-// - NavigationSetup() causes all site navigation to be offline, you just need
-//   to pass in the main "render" method to rerender based on the current route
 
-export const Route = () => {
+/**
+ * Returns the current route as an array of individual paths
+ * @returns String[]
+ */
+export const currentRoute = () => {
   return window.location.pathname.split('/').filter(str => str.length > 0)
 }
 
-export const NavigationSetup = (renderApp) => {
+/**
+ * Setup offline PWA navigation.
+ *
+ * @param {Function} renderApp The function that will rerender the entire app
+ */
+export const navigationSetup = (renderApp) => {
 
   // Offline navigation for forwards/backwards with browser history
   const navigateHistory = (e) => {

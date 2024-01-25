@@ -31,11 +31,11 @@ h1 svg {
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #FFFFFF;
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: lightsteelblue;;
 }
 
 body {
@@ -55,7 +55,20 @@ h1 {
   padding: 2rem;
   text-align: center;
   max-width: 800px;
+  min-height: 100vh;
   margin: 0 auto;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.about-link {
+  position: absolute;
+  bottom: 20px;
+  right: 5%;
+}
+
+.about-page p {
+  text-align: left;
 }
 
 .recipe-step {
@@ -80,15 +93,11 @@ h1 {
   padding-top: 1em
 }
 
-.recipe-list-container {
-  margin-top: 40px;
-  width: 100%;
-  text-align: center;
-}
-
 .recipe-list {
-  text-align: left;
-  display: inline;
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, max-content));
+  justify-content: center;
 }
 
 .recipe-link {
@@ -99,10 +108,6 @@ h1 {
   line-height: 80px;
   padding: 6px;
   border: 1px solid white;
-  color: white;;
-}
-.recipe-link:hover {
-  color: lightsteelblue;;
 }
 .recipe-link span {
   display: inline-block;

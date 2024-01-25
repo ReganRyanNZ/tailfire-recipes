@@ -1,4 +1,4 @@
-import { title } from './helpers'
+import { createElement, title } from './helpers'
 
 import { bananaCake } from './recipes/bananaCake'
 import { breadLoaf } from './recipes/breadLoaf'
@@ -21,15 +21,12 @@ export const recipeRoutes = {
 }
 
 export function Recipe(recipe) {
-  let component = document.createElement("div")
-  component.classList.add("recipe")
-
+  let component = createElement("div.recipe")
   component.append(title(recipe.title))
 
   let steps = recipe.steps.map(step => createStep(step))
 
-  let stepGrid = document.createElement(`div`)
-  stepGrid.classList.add('recipe-steps')
+  let stepGrid = createElement(`div.recipe-steps`)
   stepGrid.append(...steps)
   component.append(stepGrid)
 
@@ -39,15 +36,12 @@ export function Recipe(recipe) {
 }
 
 function createStep(stepData) {
-  let step = document.createElement('div')
-  step.classList.add('recipe-step')
+  let step = createElement('div.recipe-step')
 
-  let ingredients = document.createElement('ul')
-  ingredients.classList.add('ingredients')
+  let ingredients = createElement('ul.ingredients')
   ingredients.append(...listify(stepData.ingredients))
 
-  let actions = document.createElement('ul')
-  actions.classList.add('actions')
+  let actions = createElement('ul.actions')
   actions.append(...listify(stepData.actions))
 
   step.append(ingredients, actions)
@@ -56,9 +50,7 @@ function createStep(stepData) {
 
 function listify(array) {
   return array.map(text => {
-    let li = document.createElement('li')
-    li.innerHTML = markDown(text)
-    return li
+    return createElement('li', markDown(text))
   })
 }
 
@@ -67,15 +59,11 @@ function markDown(text) {
 }
 
 function tipsComponent(tips) {
-  let component = document.createElement('ul')
-  component.classList.add('tips')
-  let h2 = document.createElement('h2')
-  h2.innerText = "Tips & Tricks"
+  let component = createElement('ul.tips')
+  let h2 = createElement('h2', "Tips & Tricks")
   component.append(h2)
   for(let tip of tips) {
-    let li = document.createElement('li')
-    li.innerText = tip
-    component.append(li)
+    component.append(createElement('li', tip))
   }
   return component
 }
