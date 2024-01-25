@@ -1,4 +1,4 @@
-let englishMuffins = {
+export const englishMuffins = {
   title: `English Muffins`,
   steps: [
     {ingredients: [`1/2 tsp *yeast*`, `1/2 cup *water*`, `Pinch of *sugar*`],
@@ -16,5 +16,3 @@ let englishMuffins = {
          `The yeast can benefit from warmer (but not hot!) water.`
   ]
 }
-
-export {englishMuffins}

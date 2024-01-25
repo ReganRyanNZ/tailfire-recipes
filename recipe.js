@@ -7,6 +7,7 @@ import { englishMuffins } from './recipes/englishMuffins'
 import { lasagna } from './recipes/lasagna'
 import { pizza } from './recipes/pizza'
 import { breadRolls } from './recipes/breadRolls'
+import { fettuccineAlfredo } from './recipes/fettuccineAlfredo'
 
 export const recipeRoutes = {
   "banana-cake": bananaCake,
@@ -14,6 +15,7 @@ export const recipeRoutes = {
   "bread-rolls": breadRolls,
   "chocolate-self-saucing-mug-cake": chocMugCake,
   "english-muffins": englishMuffins,
+  "fettuccine-alfredo": fettuccineAlfredo,
   "lasagna": lasagna,
   "pizza": pizza,
 }

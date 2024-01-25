@@ -1,4 +1,4 @@
-let breadLoaf = {
+export const breadLoaf = {
   title: `Bread Loaf`,
   steps: [
     {ingredients: [`10g *yeast*`, `350g *water*`, `Pinch of *sugar*`],
@@ -15,5 +15,3 @@ let breadLoaf = {
          `After baking, it is important to keep the loaf in a covered (sealed if possible) container while it cools. This allows the crust to soften, so you don't have tough bread.`
   ]
 }
-
-export {breadLoaf}

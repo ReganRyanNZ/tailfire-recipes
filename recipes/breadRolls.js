@@ -1,4 +1,4 @@
-let breadRolls = {
+export const breadRolls = {
   title: `Bread Rolls`,
   steps: [
     {ingredients: [`7g *yeast*`, `240g *flour*`, `1 tbsp *sugar*`, `1/2 tsp *salt*`],
@@ -13,5 +13,3 @@ let breadRolls = {
   tips: [`This is one recipe where "crowding the pan" is a good thing. The buns will push against each other and rise more vertically, and have softer walls with no crust.`,
   ]
 }
-
-export {breadRolls}

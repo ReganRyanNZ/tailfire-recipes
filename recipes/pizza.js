@@ -1,4 +1,4 @@
-let pizza = {
+export const pizza = {
   title: `Pizza`,
   steps: [
     {ingredients: [`5g *yeast*`, `330g *water*`, `pinch of *sugar*`, `2 tbsp *olive oil*`],
@@ -27,5 +27,3 @@ let pizza = {
          `If you're feeling fancy, use 50% all-purpose flour and 50% 00 flour.`
       ]
 }
-
-export {pizza}

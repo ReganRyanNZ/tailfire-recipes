@@ -1,4 +1,4 @@
-let bananaCake = {
+export const bananaCake = {
   title: `Banana Cake`,
   steps: [
     {ingredients: [`100g *butter*`, `1/2 cup *brown sugar*`],
@@ -13,5 +13,3 @@ let bananaCake = {
          `To enhance the sweetness use very ripe (black) bananas.`,
          `If the butter gets too hot and melts, pop it in the freezer for a couple minutes to resolidify.`]
 }
-
-export {bananaCake}

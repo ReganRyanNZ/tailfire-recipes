@@ -1,4 +1,4 @@
-let lasagna = {
+export const lasagna = {
   title: `Lasagna`,
   steps: [
     {ingredients: [`200g *flour*`, `2 *eggs*`, `Pinch of *salt*`],
@@ -16,5 +16,3 @@ let lasagna = {
   tips: [`The white sauce requires a lot of stirring while slowly adding the milk. If it gets lumpy, keep stirring on low heat until it gets smooth again.`
   ]
 }
-
-export {lasagna}
