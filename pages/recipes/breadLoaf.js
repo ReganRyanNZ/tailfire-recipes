@@ -1,4 +1,5 @@
 export const breadLoaf = {
+  Serves: [1, `large loaf`],
   title: `Bread Loaf`,
   steps: [
     {ingredients: [`10g *yeast*`, `350g *water*`, `Pinch of *sugar*`],

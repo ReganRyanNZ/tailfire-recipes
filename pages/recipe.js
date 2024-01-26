@@ -1,4 +1,4 @@
-import { createElement, title } from './helpers'
+import { backArrow, createElement, title } from './helpers'
 
 import { bananaCake } from './recipes/bananaCake'
 import { breadLoaf } from './recipes/breadLoaf'
@@ -23,11 +23,10 @@ export const recipeRoutes = {
 export function Recipe(recipe) {
   let component = createElement("div.recipe")
   component.append(title(recipe.title))
-
-  let steps = recipe.steps.map(step => createStep(step))
+  component.append(backArrow())
 
   let stepGrid = createElement(`div.recipe-steps`)
-  stepGrid.append(...steps)
+  stepGrid.append(...recipe.steps.map(step => createStep(step)))
   component.append(stepGrid)
 
   component.append(tipsComponent(recipe.tips))

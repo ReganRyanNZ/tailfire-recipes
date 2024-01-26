@@ -17,24 +17,27 @@ export const navigationSetup = (renderApp) => {
 
   // Offline navigation for forwards/backwards with browser history
   const navigateHistory = (e) => {
-    e.preventDefault();
-    e.stopPropagation();
+    e.preventDefault()
+    e.stopPropagation()
     renderApp()
-    window.scrollTo(0, 0);
+    window.scrollTo(0, 0)
   }
-  window.addEventListener("popstate", navigateHistory);
+  window.addEventListener("popstate", navigateHistory)
 
 
   // Reroute links to be offline, calling renderApp instead of an http request
   const activateLink = (e) => {
     let link = e.target.closest('a')
     if(link) {
-      e.preventDefault();
-      e.stopPropagation();
+      e.preventDefault()
+      e.stopPropagation()
       window.history.pushState({}, '', link.href)
       renderApp()
-      window.scrollTo(0, 0);
+      window.scrollTo(0, 0)
     }
   }
-  window.addEventListener("click", activateLink);
+  window.addEventListener("click", activateLink)
+
+  // initial render
+  renderApp()
 }

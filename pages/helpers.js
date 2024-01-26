@@ -1,3 +1,4 @@
+import { backArrowSVG } from "../assets/back-arrow.js"
 import { flameLeafSVG } from "../assets/flame-leaf.js"
 
 /**
@@ -9,10 +10,8 @@ export function title(text) {
   let titleLink = document.createElement('a')
   titleLink.href = '/'
   titleLink.innerText = text
+  titleLink.append(createSVG(flameLeafSVG))
   title.append(titleLink)
-  let badge = document.createElement('svg')
-  titleLink.append(badge)
-  badge.outerHTML = flameLeafSVG
   return title
 }
 
@@ -39,4 +38,28 @@ export function createElement(inputTags, content) {
   else if (content) { el.innerHTML = content }
 
   return el
+}
+
+/**
+ * Creates an <svg> element from a string
+ *
+ * @param {String} content SVG tag as a string, e.g. "<svg ...>...</svg>"
+ * @returns {Element}
+ */
+export function createSVG(content) {
+  let container = document.createElement('div')
+  container.innerHTML = content
+  return container.firstChild
+}
+
+/**
+* Create a back arrow to navigate back home
+* @returns {Element}
+*/
+export function backArrow() {
+  let arrow = createSVG(backArrowSVG)
+  let container = createElement('a.back-button', arrow)
+  container.href = '/'
+
+  return container
 }

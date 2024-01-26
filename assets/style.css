@@ -123,3 +123,11 @@ h1 {
   text-align: left;
   margin-top: 80px;
 }
+
+.back-button {
+  width: 30px;
+  padding: 10px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
