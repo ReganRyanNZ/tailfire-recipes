@@ -96,7 +96,7 @@ h1 {
 .recipe-list {
   margin-top: 40px;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, max-content));
+  grid-template-columns: repeat(auto-fit, minmax(172px, max-content));
   justify-content: center;
   gap: 1px; /* This works with "outline" in the children to stop double borders */
 }
@@ -104,10 +104,9 @@ h1 {
 .recipe-link {
   text-align: center;
   display: inline-block;
-  width: 160px;
-  height: 80px;
-  line-height: 80px;
-  padding: 6px;
+  width: 172px;
+  height: 92px;
+  line-height: 92px;
   outline: 1px solid white;
 }
 .recipe-link span {

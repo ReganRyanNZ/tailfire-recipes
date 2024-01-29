@@ -2,6 +2,7 @@ import { backArrow, createElement, title } from './helpers'
 
 import { bananaCake } from './recipes/bananaCake'
 import { breadLoaf } from './recipes/breadLoaf'
+import { burgerBuns } from './recipes/burgerBuns'
 import { chocMugCake } from './recipes/chocMugCake'
 import { englishMuffins } from './recipes/englishMuffins'
 import { lasagna } from './recipes/lasagna'
@@ -10,15 +11,17 @@ import { breadRolls } from './recipes/breadRolls'
 import { fettuccineAlfredo } from './recipes/fettuccineAlfredo'
 
 export const recipeRoutes = {
-  "banana-cake": bananaCake,
-  "bread-loaf": breadLoaf,
-  "bread-rolls": breadRolls,
-  "chocolate-self-saucing-mug-cake": chocMugCake,
-  "english-muffins": englishMuffins,
-  "fettuccine-alfredo": fettuccineAlfredo,
-  "lasagna": lasagna,
-  "pizza": pizza,
+  "banana-cake": parseRecipe(bananaCake),
+  "bread-loaf": parseRecipe(breadLoaf),
+  "bread-rolls": parseRecipe(breadRolls),
+  "burger-buns": parseRecipe(burgerBuns),
+  "chocolate-self-saucing-mug-cake": parseRecipe(chocMugCake),
+  "english-muffins": parseRecipe(englishMuffins),
+  "fettuccine-alfredo": parseRecipe(fettuccineAlfredo),
+  "lasagna": parseRecipe(lasagna),
+  "pizza": parseRecipe(pizza),
 }
+
 
 export function Recipe(recipe) {
   let component = createElement("div.recipe")
@@ -65,4 +68,28 @@ function tipsComponent(tips) {
     component.append(createElement('li', tip))
   }
   return component
+}
+
+// A recipe object has:
+// - title
+// - steps (array of ingredients and array of actions)
+// - tips
+function parseRecipe(input) {
+  if (typeof input !== 'string') { return input }
+
+  let recipe = {}
+  let [grid, tips] = input.split("\ntips\n")
+  recipe.tips = tips.split("\n").filter(x => x.length > 0)
+  grid = grid.split("\n\n")
+  recipe.title = grid.shift().trim()
+  recipe.steps = []
+  for(let rawStep of grid) {
+    let step = {ingredients: [], actions: []}
+    for(let line of rawStep.split('\n')) {
+      if (line[0] == '-') { step.ingredients.push(line.substring(2)) }
+      else { step.actions.push(line) }
+    }
+    recipe.steps.push(step)
+  }
+  return recipe
 }
