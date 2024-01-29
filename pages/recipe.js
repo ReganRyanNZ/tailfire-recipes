@@ -2,13 +2,14 @@ import { backArrow, createElement, title } from './helpers'
 
 import { bananaCake } from './recipes/bananaCake'
 import { breadLoaf } from './recipes/breadLoaf'
+import { breadRolls } from './recipes/breadRolls'
 import { burgerBuns } from './recipes/burgerBuns'
 import { chocMugCake } from './recipes/chocMugCake'
 import { englishMuffins } from './recipes/englishMuffins'
+import { fettuccineAlfredo } from './recipes/fettuccineAlfredo'
+import { naanBread } from './recipes/naanBread'
 import { lasagna } from './recipes/lasagna'
 import { pizza } from './recipes/pizza'
-import { breadRolls } from './recipes/breadRolls'
-import { fettuccineAlfredo } from './recipes/fettuccineAlfredo'
 
 export const recipeRoutes = {
   "banana-cake": parseRecipe(bananaCake),
@@ -19,6 +20,7 @@ export const recipeRoutes = {
   "english-muffins": parseRecipe(englishMuffins),
   "fettuccine-alfredo": parseRecipe(fettuccineAlfredo),
   "lasagna": parseRecipe(lasagna),
+  "naan-bread": parseRecipe(naanBread),
   "pizza": parseRecipe(pizza),
 }
 
