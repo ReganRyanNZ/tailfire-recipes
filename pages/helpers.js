@@ -1,5 +1,6 @@
-import { backArrowSVG } from "../assets/back-arrow.js"
+import { backButtonSVG } from "../assets/back-arrow.js"
 import { flameLeafSVG } from "../assets/flame-leaf.js"
+import { homeRoute } from "../navigation.js"
 
 /**
 * Create an h1 with the site's badge next to it
@@ -11,8 +12,21 @@ export function title(text) {
   titleLink.href = '/'
   titleLink.innerText = text
   titleLink.append(createSVG(flameLeafSVG))
+  if (!homeRoute()) { title.append(backButton()) }
   title.append(titleLink)
   return title
+}
+
+/**
+* Create a back arrow to navigate back home
+* @returns {Element}
+*/
+export function backButton() {
+  let arrow = createSVG(backButtonSVG)
+  let container = createElement('a.back-button', arrow)
+  container.href = '/'
+
+  return container
 }
 
 /**
@@ -50,16 +64,4 @@ export function createSVG(content) {
   let container = document.createElement('div')
   container.innerHTML = content
   return container.firstChild
-}
-
-/**
-* Create a back arrow to navigate back home
-* @returns {Element}
-*/
-export function backArrow() {
-  let arrow = createSVG(backArrowSVG)
-  let container = createElement('a.back-button', arrow)
-  container.href = '/'
-
-  return container
 }

@@ -1,5 +1,7 @@
 export const fettuccineAlfredo = `
 Fettuccine Alfredo
+3-4 servings of pasta
+25 minutes
 
 - 300g *flour*
 - 3 *eggs*

@@ -1,5 +1,7 @@
 export const englishMuffins = `
 English Muffins
+6 english muffins
+60 minutes
 
 - 1/2 tsp *yeast*
 - 1/2 cup *water*
@@ -12,10 +14,10 @@ Stir salt into flour.
 
 - 2/3 cups *milk*
 - 1 tbsp *butter*
-Melt butter, mix with milk, and thoroughly combine all ingredients together.
+Melt butter, mix with milk, and thoroughly combine all ingredients together into a dough.
 
 No need to knead the dough, just mix thoroughly, then cover and let it sit until it has doubled in size.
-After the dough has risen, cut and shape into patties and fry them in a pan on medium-low heat.
+After the dough has risen, cut and shape into 6 patties and fry them in a pan on medium-low heat.
 
 tips
 Cover the pan with a lid while frying, it traps the moisture in and makes the muffins softer.

@@ -1,5 +1,7 @@
 export const bananaCake =
 `Banana Cake
+1 medium-sized cake
+30 minutes
 
 - 100g *butter*
 - 125g *brown sugar*

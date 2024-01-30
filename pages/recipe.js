@@ -1,4 +1,4 @@
-import { backArrow, createElement, title } from './helpers'
+import { backButton, createElement, title } from './helpers'
 
 import { bananaCake } from './recipes/bananaCake'
 import { breadLoaf } from './recipes/breadLoaf'
@@ -25,18 +25,20 @@ export const recipeRoutes = {
 }
 
 
-export function Recipe(recipe) {
+export function recipePage(recipe) {
   let component = createElement("div.recipe")
   component.append(title(recipe.title))
-  component.append(backArrow())
-
-  let stepGrid = createElement(`div.recipe-steps`)
-  stepGrid.append(...recipe.steps.map(step => createStep(step)))
-  component.append(stepGrid)
-
+  component.append(metaData(recipe.meta))
+  component.append(stepsGrid(recipe.steps))
   component.append(tipsComponent(recipe.tips))
 
   return component
+}
+
+function stepsGrid(steps) {
+  let stepGrid = createElement(`div.recipe-steps`)
+  stepGrid.append(...steps.map(step => createStep(step)))
+  return stepGrid
 }
 
 function createStep(stepData) {
@@ -72,8 +74,24 @@ function tipsComponent(tips) {
   return component
 }
 
+function metaData(meta) {
+  let component = createElement('div.meta')
+  component.append(serves(meta[1]))
+  component.append(time(meta[2]))
+  return component
+}
+
+function serves(serves) {
+  return createElement('div.serves', serves)
+}
+
+function time(time) {
+  return createElement('div.time', time)
+}
+
 // A recipe object has:
 // - title
+// - serves
 // - steps (array of ingredients and array of actions)
 // - tips
 function parseRecipe(input) {
@@ -83,7 +101,8 @@ function parseRecipe(input) {
   let [grid, tips] = input.split("\ntips\n")
   recipe.tips = tips.split("\n").filter(x => x.length > 0)
   grid = grid.split("\n\n")
-  recipe.title = grid.shift().trim()
+  recipe.meta = grid.shift().trim().split("\n")
+  recipe.title = recipe.meta[0]
   recipe.steps = []
   for(let rawStep of grid) {
     let step = {ingredients: [], actions: []}

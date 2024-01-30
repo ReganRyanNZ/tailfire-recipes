@@ -1,5 +1,7 @@
 export const breadRolls =
 `Bread Rolls
+6 bread rolls
+90 minutes
 
 - 7g *yeast*
 - 240g *flour*
@@ -11,6 +13,7 @@ Mix ingredients together.
 - 60g *water*
 - 2 tbsp *butter*
 Stir together in a saucepan on low heat until it is warm.
+Mix with the ingredients from step 1.
 
 Knead the dough thoroughly, then put in a container to rise.
 When it has doubled in size, gently knead to de-gas the dough.

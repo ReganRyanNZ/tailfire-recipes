@@ -1,4 +1,4 @@
-export const backArrowSVG = `<svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26.676 26.676">
+export const backButtonSVG = `<svg fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 26.676 26.676">
   <g>
   <path d="M26.105,21.891c-0.229,0-0.439-0.131-0.529-0.346l0,0c-0.066-0.156-1.716-3.857-7.885-4.59
     c-1.285-0.156-2.824-0.236-4.693-0.25v4.613c0,0.213-0.115,0.406-0.304,0.508c-0.188,0.098-0.413,0.084-0.588-0.033L0.254,13.815

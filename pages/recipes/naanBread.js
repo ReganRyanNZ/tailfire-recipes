@@ -1,5 +1,7 @@
 export const naanBread = `
 Naan Bread
+4 large naan
+60 minutes
 
 - 1 tsp *sugar*
 - 7g *yeast*

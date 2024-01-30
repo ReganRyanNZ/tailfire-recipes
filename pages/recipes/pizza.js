@@ -1,5 +1,7 @@
 export const pizza = `
 Pizza
+4 frying-pan-sized pizzas
+45 minutes
 
 - 5g *yeast*
 - 330g *water*

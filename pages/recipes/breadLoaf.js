@@ -1,5 +1,7 @@
 export const breadLoaf = `
 Bread Loaf
+1 large loaf
+60 minutes
 
 - 10g *yeast*
 - 350g *water*

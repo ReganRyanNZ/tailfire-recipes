@@ -1,5 +1,7 @@
 export const burgerBuns = `
 Burger Buns
+8 large buns
+60-90 minutes
 
 - 250g warm water
 - 1/4 cups olive oil

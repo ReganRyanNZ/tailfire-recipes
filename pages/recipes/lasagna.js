@@ -1,5 +1,7 @@
 export const lasagna = `
 Lasagna
+4-6 servings of lasanga
+60-90 minutes
 
 - 200g *flour*
 - 2 *eggs*
@@ -37,4 +39,6 @@ Place half the mince into a baking dish. Cover with pasta sheets, and then with 
 Sprinkle cheese on top, and bake in the oven at 180º for 20 minutes until the top has browned.
 
 tips
-The white sauce requires a lot of stirring while slowly adding the milk. If it gets lumpy, keep stirring on low heat until it gets smooth again.`
+The white sauce requires a lot of stirring while slowly adding the milk. If it gets lumpy, keep stirring on low heat until it gets smooth again.
+
+`

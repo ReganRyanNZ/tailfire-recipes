@@ -21,4 +21,5 @@ I proudly present Tailfire Recipes as a downloadable app. This isn't just a "add
 
 - Review recipes and their ingredient ratios
 - Take pics for presenting on the page, as well as thumbnails for navigation in the homescreen
-- Add some data for the top of the recipe. Servings, a little multiplier tool in there somewhere.
+- Multiply servings tool
+- Back button is overlapping long h1s

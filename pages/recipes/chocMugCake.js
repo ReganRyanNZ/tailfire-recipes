@@ -1,5 +1,7 @@
 export const chocMugCake = `
 Chocolate Self-Saucing Mug Cake
+1 large mug cake
+10 minutes
 
 - 3 tbsp *flour*
 - 2 tbsp *sugar*

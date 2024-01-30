@@ -1,14 +1,6 @@
 // I'm kinda proud of this.
 
 /**
- * Returns the current route as an array of individual paths
- * @returns String[]
- */
-export const currentRoute = () => {
-  return window.location.pathname.split('/').filter(str => str.length > 0)
-}
-
-/**
  * Setup offline PWA navigation.
  *
  * @param {Function} renderApp The function that will rerender the entire app
@@ -40,4 +32,20 @@ export const navigationSetup = (renderApp) => {
 
   // initial render
   renderApp()
+}
+
+/**
+ * Returns the current route as an array of individual paths
+ * @returns String[]
+ */
+export const currentRoute = () => {
+  return window.location.pathname.split('/').filter(str => str.length > 0)
+}
+
+/**
+ * Returns whether current navigation is at the home page
+ * @returns Boolean
+ */
+export const homeRoute = () => {
+  return currentRoute().length == 0
 }
