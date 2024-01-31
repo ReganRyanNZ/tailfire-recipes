@@ -10,6 +10,7 @@ import { fettuccineAlfredo } from './recipes/fettuccineAlfredo'
 import { naanBread } from './recipes/naanBread'
 import { lasagna } from './recipes/lasagna'
 import { pizza } from './recipes/pizza'
+import { selfSaucingPudding } from './recipes/selfSaucingPudding'
 
 export const recipeRoutes = {
   "banana-cake": parseRecipe(bananaCake),
@@ -17,6 +18,7 @@ export const recipeRoutes = {
   "bread-rolls": parseRecipe(breadRolls),
   "burger-buns": parseRecipe(burgerBuns),
   "chocolate-self-saucing-mug-cake": parseRecipe(chocMugCake),
+  "chocolate-self-saucing-pudding": parseRecipe(selfSaucingPudding),
   "english-muffins": parseRecipe(englishMuffins),
   "fettuccine-alfredo": parseRecipe(fettuccineAlfredo),
   "lasagna": parseRecipe(lasagna),
