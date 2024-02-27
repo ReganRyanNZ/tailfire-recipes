@@ -1,5 +1,5 @@
 export const chocMugCake = `
-Chocolate Self-Saucing Mug Cake
+Choc Mug Cake
 1 large mug cake
 10 minutes
 

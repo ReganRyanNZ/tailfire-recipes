@@ -9,7 +9,7 @@ English Muffins
 Mix sugar, yeast, and water. Let it sit in a warm place until the yeast is foaming at the top.
 
 - 1/4 tsp *salt*
-- 2 1/2 cups *flour*
+- 350g *flour*
 Stir salt into flour.
 
 - 2/3 cups *milk*

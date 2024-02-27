@@ -20,7 +20,7 @@ When it has doubled in size, gently knead to de-gas the dough.
 Shape it into 6 balls, place on a baking dish and let them rise again.
 
 - 2 tbsp *butter* (optional)
-When the dough has doubled in size, put the buns into the oven at 180ºC.
+When the dough has doubled in size, put the buns into the oven at 200ºC.
 Bake for about 20 mins until bread has a golden crust.
 Take out of the oven and brush the tops with butter (optional).
 

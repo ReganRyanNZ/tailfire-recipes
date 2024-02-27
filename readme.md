@@ -22,4 +22,4 @@ I proudly present Tailfire Recipes as a downloadable app. This isn't just a "add
 - Review recipes and their ingredient ratios
 - Take pics for presenting on the page, as well as thumbnails for navigation in the homescreen
 - Multiply servings tool
-- Back button is overlapping long h1s
+- Nav tiles need padding for long titles

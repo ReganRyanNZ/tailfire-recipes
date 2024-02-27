@@ -1,7 +1,7 @@
 export const selfSaucingPudding = `
-Chocolate Self-Saucing Pudding
-Serves 6-8
-30 minutes
+Choc Self-Saucing Pudding
+Serves 4-6
+40 minutes
 
 - 1 cup *flour*
 - 2 tsp *baking powder*
