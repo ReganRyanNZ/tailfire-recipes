@@ -4,7 +4,7 @@ Naan Bread
 60 minutes
 
 - 1 tsp *sugar*
-- 7g *yeast*
+- 10g *yeast*
 - 1/2 cup *warm water*
 Mix together and let sit until yeast rises to the top.
 

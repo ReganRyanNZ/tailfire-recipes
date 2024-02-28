@@ -20,4 +20,4 @@ Slowly add the pasta water while stirring to get a creamy sauce.
 
 tips
 This is the plain traditional recipe, but you can build on it with bacon, mushrooms, or sundried tomatoes.
-For great pasta, it's worthwhile to get a pasta machine. If you don't have one, you can roll the dough very flat, then fold the dough sheet in half several times (in the same direction) and slice with a very sharp knife to cut the noodles.`
+For great pasta, it's worthwhile to get a pasta machine. If you don't have one, you can roll the dough very (very) flat, let it dry out for 10-20 minutes, then cut wide strips (about the width of two fingers) with a knife or scissors. These wide noodles are called pappardelle, and are much easier to handle without machinery.`

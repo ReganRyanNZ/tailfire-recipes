@@ -40,5 +40,5 @@ Sprinkle cheese on top, and bake in the oven at 180º for 20 minutes until the t
 
 tips
 The white sauce requires a lot of stirring while slowly adding the milk. If it gets lumpy, keep stirring on low heat until it gets smooth again.
-
+This pasta is quite tough to work with, since there is low water content. If it's too difficult to work with, roll it out into a rough shape and let it rest a few minutes. The dough will relax and you can then roll it out thinner.
 `
