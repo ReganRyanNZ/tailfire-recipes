@@ -4,13 +4,13 @@ Pizza
 45 minutes
 
 - 5g *yeast*
+- 5g *sugar*
 - 330g *water*
-- pinch of *sugar*
-- 2 tbsp *olive oil*
+- 25g *olive oil*
 Mix everything together, let it sit in a warm place until yeast rises to the top.
 
 - 500g *flour*
-- 1 tsp *salt*
+- 5g *salt*
 Mix salt into the flour.
 
 Mix all of the above together and knead the dough until it is smooth.
