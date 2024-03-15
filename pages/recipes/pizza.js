@@ -40,7 +40,7 @@ Parmesan
 Pepperoni (optional)
 
 - Fresh *basil*
-When the base is about 80% cooked in the pan, move to the oven and bake at high temperature until the cheese has browned.
+When the base is browned underneath in the pan, move to the oven and grill at high temperature until the cheese has browned.
 Serve with fresh basil leaves on top. Alternatively, mash basil leaves into some olive oil and pour that over the pizza.
 
 tips

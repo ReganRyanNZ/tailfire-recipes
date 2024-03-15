@@ -3,15 +3,15 @@ Naan Bread
 6 medium naan
 60 minutes
 
-- 1 tsp *sugar*
-- 10g *yeast*
-- 1/2 cup *warm water*
+- 8g *sugar*
+- 8g *yeast*
+- 125g cup *warm water*
 Mix together and let sit until yeast rises to the top.
 
-- 2 1/4 cups *flour*
-- 1/2 cup *plain yoghurt*
-- 1/2 tsp *salt*
-- 1 tbsp *olive oil*
+- 270g *flour*
+- 5g *salt*
+- 125g *plain yoghurt*
+- 15g *olive oil*
 Mix together, along with the yeast mix.
 Knead, then place in a bowl to rise.
 

@@ -18,9 +18,9 @@ When it has doubled in size, gently knead to de-gas the dough.
 Shape it into a loaf, place on a tray and score the top with a knife.
 
 Put in oven at 200ºC with an ice cube. Cook until bread has a golden crust.
-Take out of the oven and keep it in a sealed container while it cools.
+Take out of the oven and keep it in plastic bag or a sealed container while it cools.
 
 tips
-Swap half the flour for whole wheat flour to get a whole wheat loaf. Whole wheat flour is a little thirstier, so you might want to add 50ml more water as well.
+To get a whole wheat loaf, use 200g whole wheat flour and 300g plain flour. Whole wheat flour is a little thirstier, so you might want to add 50ml more water as well.
 The ice cube in the oven increases the humidity, which allows the loaf to rise better and to form a more golden crust.
-After baking, it is important to keep the loaf in a covered (sealed if possible) container while it cools. This allows the crust to soften, so you don't have tough bread.`
+After baking, it is important to keep the loaf in a plastic bag or covered container while it cools. This stops moisture escaping, so the crust can soften. You can vary the length of time to find your preferred softness for the crust.`
