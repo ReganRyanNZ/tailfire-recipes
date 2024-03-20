@@ -14,8 +14,8 @@ Roll out as thin as you can. Dust the sheets with flour to keep them from sticki
 - 1 *onion*
 Fry at high temperature in a large frying pan until the beef is covered in crispy brown bits.
 
-- 1 *carrot*
-- 1 *zucchini*
+- 1 medium *carrot*
+- 1 medium *zucchini*
 - 1 can *pasta sauce*
 - 1 tsp *sugar*
 - *Lemon juice*
@@ -26,12 +26,12 @@ Grate carrot and zucchini and add them to the frying pan. Add the pasta sauce.
 Add the rest of the ingredients according to taste (no specific measurements).
 
 - 50g *butter*
-- 1/2 cup *flour*
-- 2 cups *milk*
+- 90g *flour*
+- 500g *milk*
 - *Salt*
 Melt butter in a saucepan on low heat.
 Add flour and stir until a dough has formed.
-Slowly add milk while stirring, until the sauce is thick and smooth.
+Slowly (over several minutes) add milk while stirring, until the sauce is thick and smooth.
 Add salt to taste.
 
 - 1 cup grated *cheese*
@@ -40,5 +40,8 @@ Sprinkle cheese on top, and bake in the oven at 180º for 20 minutes until the t
 
 tips
 The white sauce requires a lot of stirring while slowly adding the milk. If it gets lumpy, keep stirring on low heat until it gets smooth again.
-This pasta is quite tough to work with, since there is low water content. If it's too difficult to work with, roll it out into a rough shape and let it rest a few minutes. The dough will relax and you can then roll it out thinner.
+A small whisk is ideal for stirring the white sauce, but a fork or spoon can also work.
+This pasta is quite tough to work with, since there is low water content. If it's too difficult to work with, you can splash a tiny bit of water, or leave it for a few minutes to rest.
+If you are rolling the dough with a pasta machine, try the second-to-highest setting for the final thickness. Because lasagna has multiple layers, you want each layer of pasta to be very thin.
+The cheese on top can be any cheese, but a good place to start is a mixture of mozzarella and parmesan.
 `
