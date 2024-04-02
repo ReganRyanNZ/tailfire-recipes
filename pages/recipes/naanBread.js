@@ -8,7 +8,7 @@ Naan Bread
 - 125g cup *warm water*
 Mix together and let sit until yeast rises to the top.
 
-- 270g *flour*
+- 270g all-purpose *flour*
 - 5g *salt*
 - 125g *plain yoghurt*
 - 15g *olive oil*
@@ -21,4 +21,5 @@ Place into a frying pan at high temperature.
 tips
 You can serve them plain, or paint them with butter (or garlic butter).
 High temperatures, along with the oil coating, allow the outside to get crispy while the inside can stay soft and stretchy.
+You can switch the flour to 00 flour, and reduce the water to 100g, to get an extra light fluffy naan.
 `

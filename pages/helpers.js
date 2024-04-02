@@ -34,7 +34,7 @@ export function backButton() {
 * one go.
 *
 * @param {String} inputTags Element name, id, and classes like "div#home-button.btn"
-* @param {*} content Inner HTML, could be text or another Element
+* @param {*} content Inner HTML, could be text or an Element
 * @returns {Element}
 */
 export function createElement(inputTags, content) {
