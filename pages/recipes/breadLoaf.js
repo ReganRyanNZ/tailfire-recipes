@@ -1,7 +1,7 @@
 export const breadLoaf = `
 Bread Loaf
 1 large loaf
-60 minutes
+2 hours
 
 - 10g *yeast*
 - 350g *water*
@@ -13,11 +13,12 @@ Mix sugar, yeast, and water. Let it sit in a warm place until the yeast is foami
 Stir salt into flour.
 Add the water/yeast. Mix until it is a sticky dough.
 
-Knead the dough thoroughly, then put in a container to rise.
+Knead the dough thoroughly, then put in a container to rise (1 hour).
 When it has doubled in size, gently knead to de-gas the dough.
-Shape it into a loaf, place on a tray and score the top with a knife.
+Shape it into a loaf (or divide and shape into loaves), place on a baking tray and let it rise again (20 minutes)
 
-Put in oven at 200ºC with an ice cube. Cook until bread has a golden crust.
+Score the top with a knife.
+Put in oven at 200ºC with an ice cube. Cook until bread has a golden crust (about 40 minutes).
 Take out of the oven and keep it in plastic bag or a sealed container while it cools.
 
 tips
