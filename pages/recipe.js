@@ -11,6 +11,7 @@ import { naanBread } from './recipes/naanBread'
 import { lasagna } from './recipes/lasagna'
 import { pizza } from './recipes/pizza'
 import { selfSaucingPudding } from './recipes/selfSaucingPudding'
+import { tortillas } from './recipes/tortillas'
 
 export const recipeRoutes = {
   "banana-cake": parseRecipe(bananaCake),
@@ -24,6 +25,7 @@ export const recipeRoutes = {
   "lasagna": parseRecipe(lasagna),
   "naan-bread": parseRecipe(naanBread),
   "pizza": parseRecipe(pizza),
+  "tortillas": parseRecipe(tortillas),
 }
 
 
