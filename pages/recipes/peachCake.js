@@ -1,13 +1,17 @@
-export const tortillas = `
-Tortillas
-8 small tortillas
-40 minutes
+export const peachCake = `
+Peach Cake
+1 small peach cake
+1 hour
 
-
-- 230g *00 Flour*
-- 3g *salt*
-- 125g *hot water*
-- 14g *olive oil*
+- 130g white sugar
+- 1 large egg
+- 1 large egg yolk
+- 4g vanilla extract
+- 76g butter (melted)
+1/2 cup all-purpose flour
+1 tsp baking powder
+6 Tbsp whole milk (at room temperature)
+6-7 fresh peaches ( or canned)
 Mix everything together, cover and let it rest for 20 minutes.
 
 Divide dough into 8 balls, and roll out into tortillas. Fry in a nonstick pan until it starts to brown.
