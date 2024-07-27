@@ -1,22 +1,25 @@
 export const peachCake = `
 Peach Cake
 1 small peach cake
-1 hour
+1 hour 20 minutes
 
-- 130g white sugar
-- 1 large egg
-- 1 large egg yolk
-- 4g vanilla extract
-- 76g butter (melted)
-1/2 cup all-purpose flour
-1 tsp baking powder
-6 Tbsp whole milk (at room temperature)
-6-7 fresh peaches ( or canned)
-Mix everything together, cover and let it rest for 20 minutes.
+- 130g *white sugar*
+- 1 large *egg*
+- 1 large *egg yolk*
+- 4g *vanilla extract*
+- 76g *butter* (melted)
+Whisk together for 3-4 minutes, until foamy and white.
 
-Divide dough into 8 balls, and roll out into tortillas. Fry in a nonstick pan until it starts to brown.
+- 60g *flour*
+- 5g *baking powder*
+- 90g *whole milk* (at room temperature)
+Add to the mix, stirring between adding each ingredient.
+
+- 400g sliced *peaches*
+Put peaches at the bottom of a nonstick baking dish, and pour the mixture on top.
+Bake at 350ºf for 60 minutes.
 
 tips
-This recipe is based on an Italian flatbread called piadina. It makes a soft, chewy tortilla that will ruin store-bought forever.
-All-purpose flour is fine, but 00 makes them extra soft.
+Eating cake before it has cooled down from the oven is delicious, but allowing it to cool will give it better structure. The choice is yours.
+This cake is best served warmed up and with vanilla icecream.
 `
