@@ -4,10 +4,9 @@ Peach Cake
 1 hour 20 minutes
 
 - 130g *white sugar*
-- 1 large *egg*
-- 1 large *egg yolk*
+- 2 large *eggs*
 - 4g *vanilla extract*
-- 76g *butter* (melted)
+- 70g *butter* (melted)
 Whisk together for 3-4 minutes, until foamy and white.
 
 - 60g *flour*
@@ -15,9 +14,9 @@ Whisk together for 3-4 minutes, until foamy and white.
 - 90g *whole milk* (at room temperature)
 Add to the mix, stirring between adding each ingredient.
 
-- 400g sliced *peaches*
+- 320g sliced *peaches*
 Put peaches at the bottom of a nonstick baking dish, and pour the mixture on top.
-Bake at 350ºf for 60 minutes.
+Bake at 350ºf for 50 minutes.
 
 tips
 Eating cake before it has cooled down from the oven is delicious, but allowing it to cool will give it better structure. The choice is yours.
