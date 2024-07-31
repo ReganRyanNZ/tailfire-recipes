@@ -1,7 +1,7 @@
 export const paoDeQueijo = `
 Pão de Queijo (Brazilian Cheese Bread)
-1 small peach cake
-1 hour 20 minutes
+40 small cheese balls
+1 hour 30 minutes
 
 - 2 cups *milk*
 - 1 cup *oil*
@@ -22,4 +22,5 @@ Bake at 180ºC for about 40 minutes, until the outside is golden brown.
 tips
 Letting the dough rest in the fridge allows it to harden a bit, making it much easier to shape.
 You can also mix in parmesan cheese for a cheesier flavor.
+If you rub oil onto your hands, the dough won't stick while you are shaping the balls.
 `
