@@ -16,9 +16,13 @@ Add to the mix, stirring between adding each ingredient.
 
 - 320g sliced *peaches*
 Put peaches at the bottom of a nonstick baking dish, and pour the mixture on top.
-Bake at 350ºf for 50 minutes.
+Bake at 350ºf for 60 minutes.
 
 tips
 Eating cake before it has cooled down from the oven is delicious, but allowing it to cool will give it better structure. The choice is yours.
 This cake is best served warmed up and with vanilla icecream.
 `
+// Last one was too wet
+// Peaches on the very bottom?
+// Hotter temperature?
+// More flour?
