@@ -5,7 +5,7 @@ Pão de Queijo (Brazilian Cheese Bread)
 
 - 2 cups *milk*
 - 1 cup *oil*
-- 1 tsp *salt*
+- 1 tbsp *salt*
 Boil milk, oil, and salt together.
 
 - 5 cups *tapioca flour*
@@ -17,7 +17,7 @@ Let the mixture rest in the fridge for 30 mins.
 
 - 5 cups grated *mozzarella*
 Mix in the cheese, and roll the dough into small balls on a baking tray.
-Bake at 180ºC for about 40 minutes, until the outside is golden brown.
+Bake at 180ºC for about 25 minutes, until the outside is golden brown.
 
 tips
 Letting the dough rest in the fridge allows it to harden a bit, making it much easier to shape.
