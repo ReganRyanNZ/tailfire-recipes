@@ -7,7 +7,7 @@
  */
 export const navigationSetup = (renderApp) => {
 
-  // Offline navigation for forwards/backwards with browser history
+  // Offline navigation to replace forwards/backwards with browser history
   const navigateHistory = (e) => {
     e.preventDefault()
     e.stopPropagation()
