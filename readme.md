@@ -4,6 +4,10 @@ Recipe website without the bloated/slow/ad-infested/story-infested content that 
 
 This is also a sandbox for me to make JS websites without a framework—just plain ol' vanilla JS.
 
+# Getting Started
+
+Literally just `npm run dev`
+
 # Dev Sandbox
 
 Using a very bare-bones vite.js structure, I'm making my own framework of sorts:
@@ -20,6 +24,7 @@ I proudly present Tailfire Recipes as a downloadable app. This isn't just a "add
 # Todo
 
 - Review recipes and their ingredient ratios
+- Make all recipes use grams instead of other units
 - Take pics for presenting on the page, as well as thumbnails for navigation in the homescreen
 - Multiply servings tool
 - Nav tiles need padding for long titles

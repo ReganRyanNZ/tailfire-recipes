@@ -3,15 +3,15 @@ Burger Buns
 8 large buns
 60-90 minutes
 
-- 250g warm water
-- 1/4 cups olive oil
-- 1/4 cups sugar
-- 2 tbsp active dry yeast
+- 250g warm *water*
+- 32g *olive oil*
+- 50g *sugar*
+- 7g *yeast*
 Combine in a bowl and let sit for 10 minutes
 
 - 1 egg
-- 3 1/2 cups all-purpose flour
-- 1 tsp salt
+- 440g all-purpose flour
+- 6g salt
 Add in egg, stir, then flour and salt and stir until it becomes a dough.
 Preheat oven to 200ºC
 
