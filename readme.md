@@ -8,6 +8,8 @@ This is also a sandbox for me to make JS websites without a framework—just pla
 
 Literally just `npm run dev`
 
+Pushing main to github will deploy to prod automagically (via vercel).
+
 # Dev Sandbox
 
 Using a very bare-bones vite.js structure, I'm making my own framework of sorts:

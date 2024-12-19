@@ -3,22 +3,22 @@ Choc Self-Saucing Pudding
 Serves 4-6
 40 minutes
 
-- 1 cup *flour*
-- 2 tsp *baking powder*
-- 1/4 tsp *salt*
-- 1/2 cup *sugar*
-- 1 tbsp *cocoa powder*
+- 120g *flour*
+- 9g *baking powder*
+- 2g *salt*
+- 100g *sugar*
+- 6g *cocoa powder*
 Mix together in a large bowl.
 
-- 2 tbsp *melted butter*
-- 1/2 cup *milk*
-- 1 tsp *vanilla essence*
+- 28g *melted butter*
+- 120g *milk*
+- 4g *vanilla essence*
 Add to the bowl and mix together.
 Pour the mixture into a greased baking dish
 
-- 1/2 cup *brown sugar*
-- 2 tbsp *cocoa powder*
-- 2 1/4 cup *water*
+- 80g *brown sugar*
+- 12g *cocoa powder*
+- 540g *water*
 Sprinkle sugar then cocoa powder evenly on top (do not mix it in).
 Carefully pour the water over the top and put it in the oven at 180ºC for 20 mins.
 

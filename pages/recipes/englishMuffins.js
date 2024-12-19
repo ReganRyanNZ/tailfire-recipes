@@ -3,17 +3,17 @@ English Muffins
 6 english muffins
 60 minutes
 
-- 1/2 tsp *yeast*
-- 1/2 cup *water*
-- Pinch of *sugar*
+- 120g *water*
+- 2g *yeast*
+- 2g *sugar*
 Mix sugar, yeast, and water. Let it sit in a warm place until the yeast is foaming at the top.
 
-- 1/4 tsp *salt*
+- 2g *salt*
 - 350g *flour*
 Stir salt into flour.
 
-- 2/3 cups *milk*
-- 1 tbsp *butter*
+- 160g *milk*
+- 15g *butter*
 Melt butter, mix with milk, and thoroughly combine all ingredients together into a dough.
 
 No need to knead the dough, just mix thoroughly, then cover and let it sit until it has doubled in size.

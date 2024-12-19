@@ -5,6 +5,9 @@ import { recipePage, recipeRoutes } from './pages/recipe'
 import { homePage } from './pages/homePage'
 import { aboutPage } from './pages/aboutPage'
 
+
+// renderApp is the main function. Any page navigation should call this to
+// refresh all content according to the url.
 const renderApp = () => {
   let app = document.querySelector('#app')
 

@@ -17,7 +17,7 @@ Add to the mug and stir thoroughly.
 
 - 1 tbsp *brown sugar*
 - 1 tsp *cocoa powder*
-- 4 tbsp *hot water*
+- 4 tbsp *water*
 Sprinkle sugar then cocoa powder evenly on top (do not mix it in).
 Pour the water over the top and put it in the microwave for 1 minute.
 
@@ -27,5 +27,6 @@ Don't worry if it seems very wet—that's by design. The key to knowing if it's 
 The ingredients of the last step should not be stirred in, they will become the chocolate sauce for the cake.
 Any oil can be used, but avoid strong-tasting oils like olive oil.
 Microwaves vary in strength, you will need to find the optimal time for your microwave.
+This recipe uses so many small measurements (e.g. 1.2g of baking powder), so we are keeping things in tsp/tbsp for this one :)
 Serve with a high-quality vanilla ice cream.
 `
