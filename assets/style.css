@@ -150,11 +150,12 @@ h1 {
     top: 0;
     right: 0;
     left: 0;
-    padding: 20px;
+    padding: 10px;
     white-space: break-spaces;
     text-align: left;
-    color: #999;
+    color: #777;
     background: #000;
     font-family: sans-serif;
     font-weight: 300;
+    font-size: 1.1em;
 }
