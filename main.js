@@ -4,7 +4,7 @@ import { navigationSetup, currentRoute } from './navigation'
 import { recipePage, recipeRoutes } from './pages/recipe'
 import { homePage } from './pages/homePage'
 import { aboutPage } from './pages/aboutPage'
-import { bookPage } from './pages/bookPage'
+import { bookPage } from './pages/bookPage.js'
 
 
 // renderApp is the main function. Any page navigation should call this to
