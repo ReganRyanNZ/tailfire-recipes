@@ -4,6 +4,7 @@ import { navigationSetup, currentRoute } from './navigation'
 import { recipePage, recipeRoutes } from './pages/recipe'
 import { homePage } from './pages/homePage'
 import { aboutPage } from './pages/aboutPage'
+import { bookPage } from './pages/bookPage'
 
 
 // renderApp is the main function. Any page navigation should call this to
@@ -18,6 +19,8 @@ const renderApp = () => {
     app.replaceChildren(recipePage(recipe))
   } else if(route == 'about') {
     app.replaceChildren(aboutPage())
+  } else if (route == 'book') {
+    app.replaceChildren(bookPage(currentRoute()[1]))
   } else {
     document.title = `Tailfire Recipes`
     app.replaceChildren(homePage())

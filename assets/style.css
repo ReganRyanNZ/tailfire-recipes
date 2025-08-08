@@ -144,3 +144,15 @@ h1 {
   text-align: right;
   margin-bottom: 20px;
 }
+
+.book-page {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    padding: 20px;
+    white-space: break-spaces;
+    text-align: left;
+    color: #999;
+    background: #000;
+}
