@@ -1,22 +1,15 @@
 import { createElement } from "./helpers";
-import chapter1 from "./bookChapters/1";
-import chapter101 from "./bookChapters/101";
-import chapter102 from "./bookChapters/102";
-
-const chapters = {
-  1: chapter1,
-  101: chapter101,
-  102: chapter102
-}
+import * as chapters from "./bookChapters/wandering_inn";
+import * as snapshotChapters from "./bookChapters/snapshot";
 
 export function bookPage(n) {
-  n = Number(n)
   let page = createElement('div.book-page')
-  page.append(createElement('p', chapters[n]))
+  let key = 'ch' + n
+  page.append(createElement('p', chapters[key] || snapshotChapters[key]))
 
   // create nav button to next page
   let nextButton = createElement('a', "Next chapter")
-  nextButton.href = `/book/${n+1}`
+  nextButton.href = `/book/${Number(n)+1}`
   page.append(nextButton)
 
   return page
